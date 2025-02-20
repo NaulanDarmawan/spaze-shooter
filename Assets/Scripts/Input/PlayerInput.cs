@@ -12,7 +12,7 @@ public class PlayerInput : MonoBehaviour
     {
         XAxis = Input.GetAxisRaw("Horizontal");
         YAxis = Input.GetAxisRaw("Vertical");
-        Shoot = Input.GetButtonDown("Fire1");
+        Shoot = Input.GetKeyDown(KeyCode.Space);
     }
 
 }
