@@ -56,5 +56,6 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "spaze-shooter.sln"
+    "dotnet.defaultSolution": "spaze-shooter.sln",
+    "FSharp.suggestGitignore": false
 }
